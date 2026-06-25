@@ -1,0 +1,4 @@
+# use library psutil for system monitoring
+
+# use psutil (Python System and Process Utilities) for system monitoring
+psutil 7.0.0
