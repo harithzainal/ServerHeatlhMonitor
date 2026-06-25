@@ -8,6 +8,7 @@ A simple Python application that monitors server health.
 - CPU Usage
 - Memory Usage
 - Disk Usage
+- Schedular for weekly
 
 ## Installation
 

@@ -1,4 +1,7 @@
-# use library psutil for system monitoring
+# Library that is used for system monitoring
 
 # use psutil (Python System and Process Utilities) for system monitoring
 psutil 7.0.0
+
+# Pandas is an open-source Python library used primarily for data manipulation, cleaning, and analysis
+pandas 2.3.1
