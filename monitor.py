@@ -1,6 +1,9 @@
 
 import psutil
+import platform
 
-print("CPU:", psutil.cpu_percent(), "%")
-print("Memory:", psutil.virtual_memory().percent, "%")
-print("Disk:", psutil.disk_usage('/').percent, "%")
+print("===== SERVER HEALTH =====")
+print("Operating System :", platform.system())
+print("CPU Usage        :", psutil.cpu_percent(), "%")
+print("Memory Usage     :", psutil.virtual_memory().percent, "%")
+print("Disk Usage       :", psutil.disk_usage('/').percent, "%")
