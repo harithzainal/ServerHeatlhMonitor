@@ -1,0 +1,36 @@
+
+==========================================================
+              WEEKLY SERVER HEALTH REPORT
+==========================================================
+
+Total Records : 3
+
+---------------- CPU ----------------
+
+Average CPU Usage : 16.63 %
+Highest CPU Usage : 22.40 %
+Lowest CPU Usage  : 13.60 %
+
+--------------- MEMORY ---------------
+
+Average Memory Usage : 77.70 %
+Highest Memory Usage : 77.80 %
+
+---------------- DISK -----------------
+
+Average Disk Usage : 75.70 %
+Highest Disk Usage : 75.70 %
+
+-------------- WARNINGS --------------
+
+CPU High Warning    : 0
+
+Memory High Warning : 0
+
+Disk High Warning   : 0
+
+---------------------------------------
+
+Overall Health : Healthy
+
+==========================================================
