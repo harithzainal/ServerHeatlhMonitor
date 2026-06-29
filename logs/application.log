@@ -1,0 +1,26 @@
+2026-06-29 09:55:37 | INFO | ============================================================
+2026-06-29 09:55:37 | INFO | SERVER HEALTH MONITOR STARTED
+2026-06-29 09:55:39 | INFO | Hostname : NISE_HARITH
+2026-06-29 09:55:39 | INFO | IP Address : 192.168.1.12
+2026-06-29 09:55:39 | INFO | Operating System : Windows
+2026-06-29 09:55:39 | INFO | CPU Usage : 21.10%
+2026-06-29 09:55:39 | INFO | Memory Usage : 57.60%
+2026-06-29 09:55:39 | INFO | Disk Usage : 73.40%
+2026-06-29 09:55:39 | INFO | CPU Status : Normal
+2026-06-29 09:55:39 | INFO | Memory Status : Normal
+2026-06-29 09:55:39 | INFO | Disk Status : Normal
+2026-06-29 09:55:39 | INFO | Health information saved successfully.
+2026-06-29 09:55:39 | INFO | ============================================================
+2026-06-29 10:16:44 | INFO | ============================================================
+2026-06-29 10:16:44 | INFO | SERVER HEALTH MONITOR STARTED
+2026-06-29 10:16:45 | INFO | Hostname : NISE_HARITH
+2026-06-29 10:16:45 | INFO | IP Address : 192.168.1.12
+2026-06-29 10:16:45 | INFO | Operating System : Windows
+2026-06-29 10:16:45 | INFO | CPU Usage : 12.90%
+2026-06-29 10:16:45 | INFO | Memory Usage : 56.90%
+2026-06-29 10:16:45 | INFO | Disk Usage : 73.60%
+2026-06-29 10:16:45 | INFO | CPU Status : Normal
+2026-06-29 10:16:45 | INFO | Memory Status : Normal
+2026-06-29 10:16:45 | INFO | Disk Status : Normal
+2026-06-29 10:16:45 | INFO | Health information saved successfully.
+2026-06-29 10:16:45 | INFO | ============================================================
