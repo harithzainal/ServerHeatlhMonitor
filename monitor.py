@@ -4,6 +4,7 @@ import socket
 import logging
 import platform
 from datetime import datetime
+from send_email import send_alert
 
 import psutil
 
@@ -12,8 +13,8 @@ import psutil
 # ======================================================
 
 CPU_THRESHOLD = 80
-MEMORY_THRESHOLD = 90
-DISK_THRESHOLD = 85
+MEMORY_THRESHOLD = 80
+DISK_THRESHOLD = 80
 
 OUTPUT_FOLDER = "output"
 LOG_FOLDER = "logs"
@@ -150,6 +151,43 @@ if memory_status == "High":
 
 if disk_status == "High":
     logging.warning(f"Disk usage exceeded threshold ({disk:.2f}%)")
+
+# ======================================================
+# SEND ALERT EMAIL
+# ======================================================   
+if cpu_status == "High" or memory_status == "High" or disk_status == "High":
+
+    subject = "🚨 Server Health Alert"
+
+    body = f"""
+Server Health Alert
+
+Hostname : {hostname}
+
+IP Address : {ip_address}
+
+Time : {timestamp}
+
+-------------------------------------
+
+CPU Usage : {cpu:.2f}%
+
+Memory Usage : {memory:.2f}%
+
+Disk Usage : {disk:.2f}%
+
+-------------------------------------
+
+CPU Status : {cpu_status}
+
+Memory Status : {memory_status}
+
+Disk Status : {disk_status}
+
+Please investigate the server.
+"""
+
+    send_alert(subject, body)
 
 # ======================================================
 # SAVE CSV
